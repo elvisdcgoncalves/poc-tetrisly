@@ -9,16 +9,31 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.3"
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.18",
+    "@virtuslab/tetrisly-react": "^1.6.1",
+    "next": "14.2.3",
+    "next-google-fonts": "^2.2.0",
+    "next-transpile-modules": "^10.0.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/styled-components": "^5.1.26",
+    "@xstyled/styled-components": "^3.8.0",
     "eslint": "^8",
-    "eslint-config-next": "14.2.3"
+    "eslint-config-next": "14.2.3",
+    "styled-components": "^5.3.3",
+    "typescript": "^5"
+  },
+  "peerDependencies": {
+    "@xstyled/styled-components": "^3.8.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "styled-components": "^5.0.0"
   }
 }
